@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard - Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+    <!--
+    <style>
+        profile-settings,
+        .quiz-list {
+            margin: 20px 0;
+        }
+
+
+
+        .dashboard-widgets {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .widget {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 48%;
+        }
+
+        .widget .count {
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .table th,
+        .table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+
+        }
+
+        .table th {
+            background-color: #f4f4f4;
+        }
+    </style> -->
+</head>
+
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <div class="logo">
+            <img src="/img/logo.png.jpeg" alt="Logo" class="logo-img">
+            <h1>Dr.Kalam's</h1>
+        </div>
+        <nav class="nav">
+            <a href="Home.html">Home</a>
+            <a href="Admin.html">Admin Dashboard</a>
+            <a href="user.html">User Dashboard</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <div class="profile-settings">
+            <h2>User Profile Settings</h2>
+            <a href="#" class="btn">Edit Profile</a>
+            <a href="#" class="btn">View Profile</a>
+            <a href="Home.html" class="btn">Logout</a>
+        </div>
+
+        <div class="quiz-list">
+
+            <table class="table">
+                <div class="dashboard-widgets">
+                    <div class="widget">
+                        <h2>Quizzes</h2>
+                        <p class="count">5</p>
+                        <a href="#quiz-list" class="btn">View Quiz List</a>
+                    </div>
+                    <div class="widget">
+                        <h2>Statistics</h2>
+                        <p class="count">80%</p>
+                        <a href="#statistics" class="btn">View Statistics</a>
+                    </div>
+                </div>
+
+                <div class="quiz-list">
+                    <h2>Quiz List</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>S.No</th>
+                                <th>Topic</th>
+                                <th>Total Questions</th>
+                                <th>Marks</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Kalams Institute of Youth Excellence | Inspire India</td>
+                                <td>50</td>
+                                <td>100</td>
+                                <td><a href="startquiz.html" class="btn">Start</a></td>
+                            </tr>
+                            <!-- More quizzes can be listed here -->
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <a href="#certificate" class="btn">Download Certificate</a>
+        </div>
+    </main>
+</body>
+
+</html>
+<!-- More quizzes can be listed here -->
